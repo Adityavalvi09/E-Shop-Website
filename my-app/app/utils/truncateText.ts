@@ -1,6 +1,6 @@
 export const truncateText = (str: string): string => {
-    if (str.length < 60) return str;
+    if (str.length < 40) return str;
   
-    return str.substring(0,55) + "...";
+    return str.substring(0,25) + "...";
   };
   

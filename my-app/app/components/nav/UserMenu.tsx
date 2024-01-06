@@ -71,6 +71,10 @@ const UserMenu:React.FC<UserMenuProps>= ({currentUser}) => {
                         signOut();
 
                     }}>Logout </MenuItem>
+
+<Link href="/orders">
+                        <MenuItem onClick={toggleOpen}> Your Orders</MenuItem>
+                    </Link>
                 </div> ):(
                 <div>
                     <Link href="/orders">
